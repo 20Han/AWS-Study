@@ -21,3 +21,10 @@
 # 5. Lambda로 게시판 서버 만들기2(웹 클라이언트 접속 및 CORS 설정)
 - CORS : 특정 웹사이트에서 다른 웹사이트의 정보를 받아오도록 하면 에러가 발생. 이를 위해 CORS(Cross-origin resource sharing) 설정 필요
 - cors를 서버에 허용한다. 이후 API Gateway를 deploy해야한다. 또한 람다함수의 헤더에 'Access-Control-Allow-Origin' : '*'을 추가해야한다.  
+
+# 6. AWS Lambda와 MongoDB 연동
+- Enviornment Variables : lambda함수에서 사용할 여러 변수를 지정 가능, 패스워드등의 값을 넣어주면 좋다
+
+# 7. AWS Lambda로 게시판 서버 API 만들기
+- api gateway 설정시 {proxy+}를 설정하면 해당 path 값에 모든 값을 사용할 수 있다. 
+
