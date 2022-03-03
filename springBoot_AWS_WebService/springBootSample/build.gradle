@@ -42,6 +42,7 @@ dependencies {
 
     //db
     implementation('com.h2database:h2') //인메모리 RDB로 재시작시 초기화되기 때문에 테스트 용도로 많이 사용된다.
+    implementation('org.springframework.boot:spring-boot-starter-jdbc')
 
 
     implementation 'junit:junit:4.13.1'
