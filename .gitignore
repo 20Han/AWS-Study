@@ -1,0 +1,7 @@
+#intellij
+.gradle
+.idea
+
+#oauth file
+application-oauth.properties
+client_secret_90407674602-83rg055fgiotlpgunnb7rljr8nit1j4p.apps.googleusercontent.com.json
