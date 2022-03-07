@@ -1,6 +1,9 @@
 #intellij
 .gradle
 .idea
+*.bin
+*.lock
+*.class
 
 #oauth file
 application-oauth.properties
