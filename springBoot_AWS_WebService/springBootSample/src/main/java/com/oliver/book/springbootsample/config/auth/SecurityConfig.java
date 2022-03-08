@@ -26,7 +26,5 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         .oauth2Login()//OAuth2 로그인 기능 설정의 진입점
                                 .userInfoEndpoint() //OAuth2 로그인 성공 후 사용자 정보를 가져올때의 설정 담당
                                         .userService(customOAuth2UserService); //사용자 정보를 가져온 상태에서 추가로 진행하고자 하는 기능 명시
-
-        super.configure(http);
     }
 }
