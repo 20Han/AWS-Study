@@ -1,6 +1,5 @@
 package com.oliver.book.springbootsample.config.auth;
 
-import com.oliver.book.springbootsample.config.auth.LoginUser;
 import com.oliver.book.springbootsample.config.auth.dto.SessionUser;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.MethodParameter;
