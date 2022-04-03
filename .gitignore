@@ -4,6 +4,7 @@
 *.bin
 *.lock
 *.class
+*.pem
 
 #oauth file
 application-oauth.properties
