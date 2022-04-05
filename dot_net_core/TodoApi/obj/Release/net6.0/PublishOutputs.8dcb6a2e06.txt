@@ -1,0 +1,13 @@
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/TodoApi/bin/Release/net6.0/publish/TodoApi
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/TodoApi/bin/Release/net6.0/publish/appsettings.Development.json
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/TodoApi/bin/Release/net6.0/publish/appsettings.json
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/TodoApi/bin/Release/net6.0/publish/TodoApi.dll
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/TodoApi/bin/Release/net6.0/publish/TodoApi.deps.json
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/TodoApi/bin/Release/net6.0/publish/TodoApi.runtimeconfig.json
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/TodoApi/bin/Release/net6.0/publish/TodoApi.pdb
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/TodoApi/bin/Release/net6.0/publish/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/TodoApi/bin/Release/net6.0/publish/Microsoft.EntityFrameworkCore.dll
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/TodoApi/bin/Release/net6.0/publish/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/TodoApi/bin/Release/net6.0/publish/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/TodoApi/bin/Release/net6.0/publish/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/TodoApi/bin/Release/net6.0/publish/Microsoft.Extensions.Caching.Memory.dll

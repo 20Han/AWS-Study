@@ -1,0 +1,11 @@
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/PlayGround/bin/Debug/net6.0/PlayGround
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/PlayGround/bin/Debug/net6.0/PlayGround.dll
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/PlayGround/bin/Debug/net6.0/PlayGround.pdb
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/PlayGround/obj/Debug/net6.0/PlayGround.csproj.AssemblyReference.cache
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/PlayGround/obj/Debug/net6.0/PlayGround.GeneratedMSBuildEditorConfig.editorconfig
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/PlayGround/obj/Debug/net6.0/PlayGround.AssemblyInfoInputs.cache
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/PlayGround/obj/Debug/net6.0/PlayGround.AssemblyInfo.cs
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/PlayGround/obj/Debug/net6.0/PlayGround.csproj.CoreCompileInputs.cache
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/PlayGround/obj/Debug/net6.0/PlayGround.dll
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/PlayGround/obj/Debug/net6.0/refint/PlayGround.dll
+/Users/iyeonghan/Downloads/개인/AWS-Study/dot_net_core/PlayGround/obj/Debug/net6.0/PlayGround.pdb
