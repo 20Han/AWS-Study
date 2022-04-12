@@ -75,3 +75,22 @@
     * 주로 로컬 퍼포먼스(다른 리전에 있는 곧에 RR을 생성해서 속도 향상)나 DR시나리오(자연재해)로 사용
     * 확장성 성능을 위해 사용
     * Async 복제
+
+
+# 8. SES vs SNS vs SQS
+* SES (Simple Email Service)
+    * 이메일을 보내거나 받을 수 있는 서비스
+    * 이메일을 받을 때 여러 방법으로 처리 가능 (람다, SNS 호출, S3에 이메일 저장)
+    * 대량의 이메일을 보내기 위해서는 샌드박스 모드 해제 필요
+
+* SNS(Simple Notification Service)
+    * Publish/Subscribe 기반의 메세징 서비스
+    * 다양한 프로토콜로 메세지 전달 가능 (이메일, Http, SQS, SMS, Lambda)
+    * 하나의 메세지를 여러 서비스에서 처리한다는 점에서 다른 서비스와 구분된다. 
+    
+* SQS(Amazon Simple Queue Service)
+    * 다른 서비스에서 사용할 수 있도록 메세지를 잠시 저장하는 용도(256kb, 14일까지 저장 가능)
+    * AWS 디커플링을 위해 사용
+    * ex) lambda에서 바로 ec2로 넘기면 에러처리 불가능. 따라서 SQS에서 ec2가 메세지를 뽑아 사용하는 형태로 하여 메세지 유실을 방지
+        
+    

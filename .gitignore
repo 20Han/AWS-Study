@@ -21,3 +21,6 @@ client_secret_90407674602-83rg055fgiotlpgunnb7rljr8nit1j4p.apps.googleuserconten
 *.sentinel
 *.txt
 *.props
+
+#dotnetcore
+/dot_net_core
