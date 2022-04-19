@@ -63,3 +63,39 @@ https://www.youtube.com/watch?v=Ia-UEYYR44s
 * Gateway Endpoints
     * 특정한 라우팅을 위한 게이트웨이로 공짜다
     * 현재는 S3와 Dynamo DB만 지원된다
+    
+# VPC Flow Logs
+* 소개
+    * VPC로 들어오가 나가는 IP Flow를 알 수 있도록 해준다
+    * VPC, Subnet, Network Interface에 대해 설정할 수 있다
+    * S3나 CloudWatch에 저장되어 여기서 확인하면 된다
+    * 태그할 수 없음
+    
+# Network Access Control List (NACL)
+* intro
+    * subnet의 방화벽 같은 역할
+    * 한 서브넷은 하나의 nacl만 사용할 수 있다
+    * outbound와 inbound로 구성되어 들어오고 나가는 트래픽을 결정한다
+    * Rule #는 inbound, outbound rule의 순서를 결정한다. 32766까지 설정가능하며 가능하면 10,100 단위로 설정하길 권장된다
+    
+# Security Groups(SG)
+* intro
+    * EC2인스턴스의 방화벽
+    * inbound, outboud로 구성되며 deny룰은 없다(기본이 deny). EC2 접근을 허용할 접근 방법만 명시하면 된다
+    * 여러 서브넷에 걸쳐있는 여러 EC2도 하나의 SG에 연결될 수 있다
+    * 리전당 최대 10000개의 SG까지 생성 가능
+    * 한 SG에는 60개의 inbound, outbound 가능
+    * ENI하나당 16개의 SG가능
+    
+# Network Address Translation(NAT) 
+* intro
+    * ip space를 매핑하는 방법
+    * private network에서 outbound internet access가 필요하다면 NAT gateway가 필요
+    * 두 네트워크에서 ip가 충돌할때 NAT으로 해결가능
+    
+* NAT Instances vs NAT Gateways
+    * 공통점 : public subnet에서 실행되어야 함
+    * NAT Instances(legacy) : Community AMI를 사용하는 EC2 instances를 통해 가동된다
+    * NAT Gateways : 남는 EC2를 통해 가동된다
+        
+    
