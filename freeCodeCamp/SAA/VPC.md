@@ -99,3 +99,15 @@ https://www.youtube.com/watch?v=Ia-UEYYR44s
     * NAT Gateways : 남는 EC2를 통해 가동된다
         
     
+# VPC Follow Along
+* CIDR(Classless Inter-Domain Routing)
+    * IPv4 : 50억개 정도, 개수가 부족
+    * Private Network : 하나의 Publc IP를 여러 기기가 공유
+        * private IP를 부여받은 기기와 gateway로 구성
+        * private IP는 지정된 아이피 에서만 사용가능(10.xx.xx.xx, 172.xx.xx.xx, 192.xx.xx.xx)
+        * Gateway에서는 port를 통해 각 private ip를 식별한다
+    * CIDR : 네트워크 영역 나누기
+        * / 뒤의 숫만큼의 비트가 네트워크 ip
+        * ex) 10.88.135.144/28 : 10.88.135.144 ~ 10.88.135.159
+        * 보통 첫번째/마지막 ip는 예약되어 있어서 사용 불가능. AWS에서는 5개의 address 예약(0,1,2,3, 마지막)
+        * 192.168.0./16라는 네트워크를 192.168.1.1/24, 192.168.2.1/24, 192.168.3.1/24 등 여러개의 서브넷으로 자를 수 있다.
