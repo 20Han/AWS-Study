@@ -27,3 +27,14 @@ https://www.youtube.com/watch?v=ZXdFisA_hOY
     * async : 함수에 표기해주며 단순히 비동기 함수임을 나타냄
     * await : 기다려
 * SuppressAsyncSuffixInActionNames : 함수 이름 뒤에 Async가 붙으면 CreatedAtAction에서 라우팅 이슈가 생긴다. 따라서 이 flag를 addController시에 false로 해야한다.
+
+# Secrets management
+* appsettings.json에서 pw를 숨겨야한다
+* sercret manager
+    * dotnet user-secrets init
+    * dotnet user-secrets set MongoDbSettings:(my_pw)
+    * 위 명령어를 사용하면 MongoDbSettings에 패스워드가 저장된다.
+    
+
+# Health Checks
+* DB가 살아 있는지 체크
