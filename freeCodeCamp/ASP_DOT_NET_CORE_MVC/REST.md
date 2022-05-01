@@ -38,3 +38,14 @@ https://www.youtube.com/watch?v=ZXdFisA_hOY
 
 # Health Checks
 * DB가 살아 있는지 체크
+
+# Docker
+* Docker file
+    * OS
+    * .dotnet core runtime
+    * dependencies
+    * where to place file
+    * How to start REST API
+    
+* Docker Engine이 Docker file을 바탕으로 tagging을 하고 build를 하여 Docker Image를 만든다
+* Docker Image를 Container Registry에 저장하여 production 환경에서 해당 이미지를 다운받아 사용한다
